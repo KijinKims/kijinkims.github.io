@@ -378,12 +378,20 @@ img {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .navbar-custom .navbar-brand {
     line-height: 1.5;
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
     font-size: 0.8rem;
+  }
+  .navbar-custom.top-nav-regular .avatar-container {
+    width: 6rem;
+    bottom: -5rem;
+  }
+  .intro-header .page-heading h1 {
+    margin-top: 0;
+    font-size: 2rem;
   }
 }
 
